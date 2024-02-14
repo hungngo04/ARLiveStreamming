@@ -22,7 +22,7 @@ io.on('connection', (socket) => {
         users[initiatorId].emit('initiateCall', true);
     }
       
-    socket.on('Disconnect', () => {
+    socket.on('disconnect', () => {
       delete users[socket.id];
       console.log('An user disconnected:', socket.id);
     });

@@ -1,3 +1,6 @@
+# About the project
+This project enables streamers to broadcast their camera feed directly into the viewer's augmented reality (AR) scene, utilizing WebXR and JavaScript.
+
 # Project Setup Instructions
 
 This document provides instructions for setting up and running the project on both the server and client sides.
